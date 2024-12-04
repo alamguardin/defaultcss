@@ -4,6 +4,7 @@
     background: theme.$gray-50;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 14px;
+    color: theme.$gray-950;
 }
 
 *, *::before, *::after {
@@ -16,4 +17,13 @@ main {
     max-width: 1200px;
     width: 90%;
     margin: auto;
+}
+
+a {
+    color: theme.$gray-950;
+}
+
+button, input, select, textarea {
+    outline: none;
+    border: none;
 }
