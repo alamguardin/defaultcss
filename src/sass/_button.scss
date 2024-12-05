@@ -1,0 +1,44 @@
+@use 'theme';
+
+button {
+    padding: 0.875rem 2.625rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    font-size: 0.875rem;
+    transition: .2s all ease;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: translateY(-0.125rem);
+}
+
+button:active {
+    transform: scale(0.9);
+}
+
+form button:first-child {
+    background: theme.$gray-950;
+    color: theme.$gray-50;
+}
+
+form button:first-child:hover {
+    background-color: theme.$gray-900;
+}
+
+form button:first-child:active {
+    background-color: theme.$gray-800;
+}
+
+form button:last-child {
+    background: theme.$gray-200;
+    color: theme.$gray-950;
+}
+
+form button:last-child:hover {
+    background-color: theme.$gray-300;
+}
+
+form button:last-child:active {
+    background-color: theme.$gray-400;
+}
