@@ -1,0 +1,37 @@
+@use 'theme';
+
+input[type="checkbox"] {
+    position: relative;
+    appearance: none;
+    width: 1.125rem;
+    height: 1.125rem;
+    border: 1px solid theme.$gray-300;
+    border-radius: 0.25rem;
+    transition: .2s all ease;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:hover {
+    border-color: theme.$gray-800;
+}
+
+input[type="checkbox"]:checked {
+    border-color: theme.$gray-950;
+    background-color: theme.$gray-950;
+}
+
+input[type="checkbox"]:checked::after {
+    content: '✓';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: theme.$gray-50;
+    font-size: 0.875rem;
+}
+
+div:has(> input[type="checkbox"] + label) {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
