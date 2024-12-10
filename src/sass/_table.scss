@@ -1,0 +1,26 @@
+@use 'theme';
+
+table {
+    border-collapse: collapse;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+tr {
+    border: 1px solid theme.$gray-300;
+}
+
+tr:hover {
+    background: theme.$gray-200;
+    cursor: default;
+}
+
+td, th {
+    text-align: left;
+    padding: 0.5rem 1.125rem;
+}
+
+thead th {
+    font-weight: normal;
+    color: theme.$gray-500;
+}
