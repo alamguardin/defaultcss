@@ -1,0 +1,128 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  lightningcss-cli:
+    specifier: ^1.29.1
+    version: 1.29.1
+
+packages:
+
+  /detect-libc@1.0.3:
+    resolution: {integrity: sha512-pGjwhsmsp4kL2RTz08wcOlGN83otlqHeD/Z5T8GXZB+/YcpQ/dgo+lbU8ZsGxV0HIvqqxo9l7mqYwyYMD9bKDg==}
+    engines: {node: '>=0.10'}
+    hasBin: true
+    dev: false
+
+  /lightningcss-cli-darwin-arm64@1.29.1:
+    resolution: {integrity: sha512-KCQ0F0aS0jRlNHFHIGDozDnG3rlqEsSaotZ71S+W1llITk3TqVMXtkKj2hoC88v/aLpuVkDStNee68mDfOhjEA==}
+    engines: {node: '>= 12.0.0'}
+    cpu: [arm64]
+    os: [darwin]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /lightningcss-cli-darwin-x64@1.29.1:
+    resolution: {integrity: sha512-ug2Q5th5sdXVpbqZXqSyYDtAxXXclwWaelQpv/JKzfkm77bWL37e1LIhcIKaprvRxHZQC8EW6XJUfYUyda+o+A==}
+    engines: {node: '>= 12.0.0'}
+    cpu: [x64]
+    os: [darwin]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /lightningcss-cli-freebsd-x64@1.29.1:
+    resolution: {integrity: sha512-Qgx4JFVGZ3m21K8O8BSf2tNszA/BlkUOgBmzr5n1YWaCzFKXaaTdpg4RUi0cxF3I91DERTQTi82GqYeZ1A93mA==}
+    engines: {node: '>= 12.0.0'}
+    cpu: [x64]
+    os: [freebsd]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /lightningcss-cli-linux-arm-gnueabihf@1.29.1:
+    resolution: {integrity: sha512-PhNQPIKZu6htDfZeI6zCRWGkr5ZjlbiuwL7dZTL51u48ROBm/QY1ZN9QUBnqasNexc5F2nMgwAXiJCzeozD/5g==}
+    engines: {node: '>= 12.0.0'}
+    cpu: [arm]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /lightningcss-cli-linux-arm64-gnu@1.29.1:
+    resolution: {integrity: sha512-Gyfdu5BiRpOAI8Bkc3OtnUuiwoGBHr9OnmWe6r6BIcc4pbeW9N7a5ZOBkBauyHbiIPadRe35YIfICfse/Gd/fg==}
+    engines: {node: '>= 12.0.0'}
+    cpu: [arm64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /lightningcss-cli-linux-arm64-musl@1.29.1:
+    resolution: {integrity: sha512-qPntUL8JleGXNp2Vn0+bsJzyul/I6b/oZf7Mh7WEqRyMRtq+sSvKUdfXOzMahaNgO6pdetsCmUp5OtugbZ30kw==}
+    engines: {node: '>= 12.0.0'}
+    cpu: [arm64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /lightningcss-cli-linux-x64-gnu@1.29.1:
+    resolution: {integrity: sha512-3jGo1pcdRFMQD4umxaxufZjCsbxcztkdb7Knb8CdUWHTuv22M3ZGFG/5/iYq+wl7/PNyiqiiwzPB/ysU3VQYUw==}
+    engines: {node: '>= 12.0.0'}
+    cpu: [x64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /lightningcss-cli-linux-x64-musl@1.29.1:
+    resolution: {integrity: sha512-KfO8eBvtbWStJ2R7coK9kIGGvjhv8wIvOvrAB6copqzQgKPQOdPndnozX+q8T3wE7Q/Jpp6d4LIb8CnNQRODbQ==}
+    engines: {node: '>= 12.0.0'}
+    cpu: [x64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /lightningcss-cli-win32-arm64-msvc@1.29.1:
+    resolution: {integrity: sha512-JVCjtdJ1K71/JVUvFaFS+9L8P+mfvUOLa0Po/pWqU9ZSIy2Q7701XDOQdpJ588FP+thu9kk89mKuB1CwVfVJiQ==}
+    engines: {node: '>= 12.0.0'}
+    cpu: [arm64]
+    os: [win32]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /lightningcss-cli-win32-x64-msvc@1.29.1:
+    resolution: {integrity: sha512-CBXENkEBcLsa56XD5scOeJzRIajUBd+a9pjWUOHrDFi35pUT6WyU2PbQcLCmauHZDYWxeM/WSKAwFpMSpiVccw==}
+    engines: {node: '>= 12.0.0'}
+    cpu: [x64]
+    os: [win32]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /lightningcss-cli@1.29.1:
+    resolution: {integrity: sha512-beeQ7BVpwjqFFn17BV9TG8byn6V0j0L2CuGd3I7tQDPyMW7DI4+HPTm306fKLCg63oX3HWpmkgMedBjyWM9/FA==}
+    engines: {node: '>= 12.0.0'}
+    hasBin: true
+    requiresBuild: true
+    dependencies:
+      detect-libc: 1.0.3
+    optionalDependencies:
+      lightningcss-cli-darwin-arm64: 1.29.1
+      lightningcss-cli-darwin-x64: 1.29.1
+      lightningcss-cli-freebsd-x64: 1.29.1
+      lightningcss-cli-linux-arm-gnueabihf: 1.29.1
+      lightningcss-cli-linux-arm64-gnu: 1.29.1
+      lightningcss-cli-linux-arm64-musl: 1.29.1
+      lightningcss-cli-linux-x64-gnu: 1.29.1
+      lightningcss-cli-linux-x64-musl: 1.29.1
+      lightningcss-cli-win32-arm64-msvc: 1.29.1
+      lightningcss-cli-win32-x64-msvc: 1.29.1
+    dev: false
