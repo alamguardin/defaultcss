@@ -1,23 +1,16 @@
 {
-	"name": "defaultcss",
-	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"cssbuild": "lightningcss --minify --bundle --targets \">= 0.25%\" ./src/main.css -o ./output/defaultcss.css",
-		"jsbuild": "npx swc ./src/main.js -o ./output/defaultcss.js"
-	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
-	"packageManager": "pnpm@8.6.7+sha512.bd1216a43fcbe2985ff41936a3f3b64c347c7c5a099e962ba764caa9321917fa99dbfae02f7a8a5f31e87c781b5ec8a7c0ca12122833dbcb2a937a50fb230441",
-	"dependencies": {
-		"lightningcss-cli": "^1.29.1"
-	},
-	"devDependencies": {
-		"@biomejs/biome": "1.9.4",
-		"@swc/cli": "^0.6.0",
-		"@swc/core": "^1.10.7"
-	}
+  "name": "defaultcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.15.0",
+  "dependencies": {
+    "lightningcss": "^1.30.1"
+  }
 }
