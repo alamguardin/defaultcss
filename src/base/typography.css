@@ -1,0 +1,127 @@
+/* Apply Poppins and DM Serif Display font to content */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+button,
+a,
+summary,
+select,
+input,
+label,
+fieldset,
+span,
+div,
+textarea,
+li,
+ol {
+	font-family: "Poppins", sans-serif;
+	font-style: normal;
+}
+
+blockquote,
+q {
+	font-family: "DM Serif Display", serif;
+	font-weight: 400;
+	font-style: italic;
+}
+
+/* Set font sizes and weight to headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 600;
+}
+
+h1 {
+	font-size: 3rem;
+}
+
+h2 {
+	font-size: 2.25rem;
+}
+
+h3 {
+	font-size: 1.5rem;
+}
+
+h4 {
+	font-size: 1.25rem;
+}
+
+h5 {
+	font-size: 1.125rem;
+}
+
+h6 {
+	font-size: 1rem;
+}
+
+/* Set font sizes and weight to content */
+
+p,
+button,
+a,
+summary,
+select,
+input,
+label,
+fieldset,
+span,
+div,
+textarea,
+li,
+ol {
+	font-size: 0.875rem;
+	font-weight: 400;
+}
+
+/* Set font sizes to mobile devices */
+@media (max-width: 768px) {
+	h1 {
+		font-size: 2rem;
+	}
+
+	h2 {
+		font-size: 1.625rem;
+	}
+
+	h3 {
+		font-size: 1.375rem;
+	}
+
+	h4 {
+		font-size: 1.125rem;
+	}
+
+	h5 {
+		font-size: 1rem;
+	}
+
+	h6 {
+		font-size: 0.875rem;
+	}
+
+	p,
+	button,
+	a,
+	summary,
+	select,
+	input,
+	label,
+	fieldset,
+	span,
+	div,
+	textarea,
+	li,
+	ol {
+		font-size: 0.75rem;
+	}
+}

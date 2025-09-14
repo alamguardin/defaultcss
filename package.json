@@ -1,0 +1,26 @@
+{
+  "name": "defaultcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "lightningcss --minify --bundle --targets \">= 0.25%\" src/index.css -o dist/defaultcss.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alamguardin/defaultcss.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/alamguardin/defaultcss/issues"
+  },
+  "homepage": "https://github.com/alamguardin/defaultcss#readme",
+  "devDependencies": {
+    "@biomejs/biome": "2.2.4",
+    "lightningcss-cli": "^1.30.1"
+  }
+}
