@@ -1,26 +1,49 @@
-/* Apply Poppins and DM Serif Display font to content */
+html {
+  font-size: 16px;
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+	font-style: normal;
+	line-height: 1.6;
+}
 
 h1,
 h2,
 h3,
 h4,
 h5,
-h6,
-p,
-button,
-a,
-summary,
-select,
-input,
-label,
-fieldset,
-span,
-div,
-textarea,
-li,
-ol {
+h6 {
 	font-family: "Poppins", sans-serif;
 	font-style: normal;
+	font-weight: 600;
+	text-wrap: balance;
+	margin-top: 1.5em;
+  	margin-bottom: 0.5em;
+}
+
+h1 {
+	font-size: 3rem;
+}
+
+h2 {
+	font-size: 2.25rem;
+}
+
+h3 {
+	font-size: 1.5rem;
+}
+
+h4 {
+	font-size: 1.25rem;
+}
+
+h5 {
+	font-size: 1.125rem;
+}
+
+h6 {
+	font-size: 1rem;
 }
 
 blockquote,
@@ -30,63 +53,12 @@ q {
 	font-style: italic;
 }
 
-/* Set font sizes and weight to headings */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	font-weight: 600;
-}
-
-h1 {
-	font-size: 3rem;
-	margin-bottom: 1em;
-}
-
-h2 {
-	font-size: 2.25rem;
-	margin-bottom: 0.75em;
-}
-
-h3 {
-	font-size: 1.5rem;
-	margin-bottom: 0.5em;
-}
-
-h4 {
-	font-size: 1.25rem;
-	margin-bottom: 0.4em;
-}
-
-h5 {
-	font-size: 1.125rem;
-	margin-bottom: 0.3em;
-}
-
-h6 {
-	font-size: 1rem;
-	margin-bottom: 0.25em;
-}
-
-/* Set font sizes and weight to content */
-
-p,
-button,
-a,
-summary,
-select,
-input,
-label,
-fieldset,
-span,
-div,
-textarea,
-li,
-ol {
+p {
 	font-size: 0.875rem;
 	font-weight: 400;
+	line-height: 1.5;
+	margin-bottom: 1em;
+	text-wrap: pretty;
 }
 
 /* Set font sizes to mobile devices */
@@ -115,19 +87,7 @@ ol {
 		font-size: 0.875rem;
 	}
 
-	p,
-	button,
-	a,
-	summary,
-	select,
-	input,
-	label,
-	fieldset,
-	span,
-	div,
-	textarea,
-	li,
-	ol {
+	p {
 		font-size: 0.75rem;
 	}
 }
